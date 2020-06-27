@@ -1,0 +1,278 @@
+/* 
+RESET
+*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.title {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 64px;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 40px;
+  }
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 160%;
+}
+@media (min-width: 768px) {
+  .paragraph {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content-wrapper {
+  padding: 0 16px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1224px;
+}
+@media (min-width: 1200px) {
+  .content-wrapper {
+    padding: 0;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/assets/img/intro-bg.jpg");
+  background-size: cover;
+  background-position: 30%;
+}
+.hero__logo {
+  max-width: 164px;
+  height: auto;
+}
+@media (min-width: 1200px) {
+  .hero__logo {
+    max-width: 300px;
+  }
+}
+
+.intro__title {
+  padding: 64px 0 16px;
+  text-align: center;
+}
+.intro hr {
+  max-width: 30px;
+  border: 1px solid black;
+}
+@media (min-width: 768px) {
+  .intro hr {
+    max-width: 75px;
+  }
+}
+
+.section {
+  padding-top: 48px;
+}
+@media (min-width: 1200px) {
+  .section {
+    padding: 80px 0;
+  }
+}
+.section:nth-child(even) {
+  background-color: #f0f0f0;
+}
+@media (min-width: 1200px) {
+  .section__wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section:nth-child(odd) .section__wrapper {
+    flex-direction: row-reverse;
+  }
+  .section:nth-child(even) .section__wrapper .section__blocktext {
+    display: flex;
+    align-items: center;
+  }
+}
+.section__image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .section__image {
+    max-width: 540px;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .section__blocktext {
+    max-width: 350px;
+  }
+}
+.section__subtitle {
+  margin: 48px 0 16px;
+}
+
+.cta {
+  display: inline-block;
+  margin: 40px 0;
+  padding: 13px 24px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.cta:hover {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+// TYPOGRAPHY
+.title {
+  font-size: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 64px;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 160%;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
